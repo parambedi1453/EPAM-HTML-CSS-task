@@ -1,0 +1,83 @@
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-width{
+    width: 58vh;
+    margin: 10px;
+    border-right: 4px solid black;
+    border-bottom:2px solid black;
+    border-left-color: white;
+    border-top-color: white;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.signbtn{
+    background: #1CE0CA;
+    height: 9vh;
+}
+
+.cap-icon {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.sign-in {
+    font-size: 1.5rem;
+}
+
+.outer-align {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-button {
+    width: 100%;
+    background: #1CE0CA;
+}
+
+.btn-facebook {
+    background: #3b5998;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn-facebook:hover{
+    opacity: 1;
+}
+
+.btn-google {
+    background: #F05925;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn-google:hover{
+    opacity: 1;
+}
+
+.btn-epamlogin {
+    background: #C0E70D;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn-epamlogin:hover{
+    opacity: 1;
+}
+
+
+.button-icon{
+    height: 5vh;
+}
+
+@media only screen and (max-width: 600px){
+    .outer-align{
+        display: flex;
+    }
+    .custom-width{
+        margin: 0px;
+    }
+}
